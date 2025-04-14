@@ -6,10 +6,10 @@ import java.util.Date;
 public class MainParalelo {
 
 	public static void main(String[] args) {
-        File diretorio = new File("./src/arquivos/p");
+        File diretorio = new File("./arquivos/p");
         String nome = "Danielle Hall";
         
-        System.out.println("Buscando pelo nome: "+nome+" paralelamente");
+        System.out.println("Buscando pelo nome: " + nome + " paralelamente");
         long initTime = new Date().getTime();
         
         ArrayList<Thread> threads = new ArrayList<Thread>();
@@ -29,5 +29,4 @@ public class MainParalelo {
         
         System.out.println("Fim das buscas em: "+ (new Date().getTime() - initTime)+" milissegundos");
     }
-
 }

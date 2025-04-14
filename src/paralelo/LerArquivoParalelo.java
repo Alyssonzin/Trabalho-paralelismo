@@ -12,7 +12,6 @@ public class LerArquivoParalelo implements Runnable {
 	private long initTime;
 	
 	public LerArquivoParalelo(String nome, File arquivo, long initTime) {
-		super();
 		this.nome = nome;
 		this.arquivo = arquivo;
 		this.initTime = initTime;
