@@ -17,26 +17,13 @@ public class LerArquivoParalelo implements Runnable {
 		this.initTime = initTime;
 	}
 
-
 	public String getNome() {
 		return nome;
 	}
 
-
-	public void setNome(String nome) {
-		this.nome = nome;
-	}
-
-
 	public File getArquivo() {
 		return arquivo;
 	}
-
-
-	public void setArquivo(File arquivo) {
-		this.arquivo = arquivo;
-	}
-
 
 	@Override
 	public void run() {
@@ -47,7 +34,7 @@ public class LerArquivoParalelo implements Runnable {
             while ((linha = leitor.readLine()) != null) {
                 if (linha.equalsIgnoreCase(nome)) {
                     System.out.println("Nome encontrato no arquivo: " + arquivo.getName() + ", linha: " + numeroLinha+ " em "+(new Date().getTime() - initTime)+" milissegundos");
-                    System.exit(0);;
+                    System.exit(0);
                 }
                 numeroLinha++;
             }
