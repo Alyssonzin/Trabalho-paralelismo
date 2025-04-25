@@ -5,8 +5,8 @@ import java.util.Date;
 public class MainSequencial {
 
 	public static void main(String[] args) {
-        File diretorio = new File("./arquivos/g");
-        String nome = "Sharon Sullivan";
+        File diretorio = new File("./arquivos/gg");
+        String nome = "Ixadsao Zqwhriqqn";
         
         System.out.println("Buscando pelo nome: " + nome + " sequencialmente");
         Date init = new Date();

@@ -6,8 +6,8 @@ import java.util.Date;
 public class MainParalelo {
 
 	public static void main(String[] args) {
-        File diretorio = new File("./arquivos/g");
-        String nome = "Penny Black";
+        File diretorio = new File("./arquivos/gg");
+        String nome = "Mmaupul Nflbzexco";
         
         System.out.println("Buscando pelo nome: " + nome + " paralelamente");
         long initTime = new Date().getTime();

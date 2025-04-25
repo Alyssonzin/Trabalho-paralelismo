@@ -35,11 +35,12 @@ public class SearchBlocks implements Runnable {
 
     @Override
     public void run() {
-        int blocos = linhasList.size() / 1000;
+        int divisor = 1000; // número de linhas por bloco
+        int blocos = linhasList.size() / divisor;
 
         for (int i = 0; i < blocos; i++) {
-            int inicio = i * 1000;
-            int fim = Math.min(inicio + 1000, linhasList.size());
+            int inicio = i * divisor;
+            int fim = Math.min(inicio + divisor, linhasList.size());
             List<String> bloco = linhasList.subList(inicio, fim);
 
             new Thread(() -> {
