@@ -6,8 +6,8 @@ import java.util.Date;
 //Demora entre 90 e 100 milissegundos
 public class MainSortAndSearch {
     public static void main(String[] args) {
-        File diretorio = new File("./arquivos/g");
-        String nome = "Holly Lynch";
+        File diretorio = new File("./arquivos/gg");
+        String nome = "Zzzzkoe Marnhvt";
 
         System.out.println("Buscando pelo nome: " + nome + " com método de ordenação e busca binária");
         long init = new Date().getTime();
