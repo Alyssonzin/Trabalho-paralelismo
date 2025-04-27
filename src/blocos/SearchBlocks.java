@@ -35,7 +35,7 @@ public class SearchBlocks implements Runnable {
 
     @Override
     public void run() {
-        int divisor = 1000; // número de linhas por bloco
+        int divisor = 100000; // número de linhas por bloco
         int blocos = linhasList.size() / divisor;
 
         for (int i = 0; i < blocos; i++) {

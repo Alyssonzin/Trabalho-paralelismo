@@ -7,7 +7,7 @@ import java.util.Date;
 public class MainBlocos {
     public static void main(String[] args) {
         File diretorio = new File("./arquivos/gg");
-        String nome = "Ixadsao Zqwhriqqn";
+        String nome = "Mmaupul Nflbzexco";
 
         System.out.println("Buscando pelo nome: " + nome + " com método de busca por blocos");
         long init = new Date().getTime();

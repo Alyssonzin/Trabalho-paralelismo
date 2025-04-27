@@ -7,7 +7,7 @@ import java.util.Date;
 public class MainSortAndSearch {
     public static void main(String[] args) {
         File diretorio = new File("./arquivos/gg");
-        String nome = "Mmaupul Nflbzexco";
+        String nome = "Zzzzkoe Marnhvt";
 
         System.out.println("Buscando pelo nome: " + nome + " com método de ordenação e busca binária");
         long init = new Date().getTime();

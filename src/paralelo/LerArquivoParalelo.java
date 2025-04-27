@@ -33,7 +33,7 @@ public class LerArquivoParalelo implements Runnable {
             int numeroLinha = 1;
             while ((linha = leitor.readLine()) != null) {
                 if (linha.equalsIgnoreCase(nome)) {
-                    System.out.println("Nome encontrato no arquivo: " + arquivo.getName() + ", linha: " + numeroLinha+ " em "+(new Date().getTime() - initTime)+" milissegundos");
+                    System.out.println("Nome encontrado no arquivo: " + arquivo.getName() + ", linha: " + numeroLinha+ " em "+(new Date().getTime() - initTime)+" milissegundos");
                     System.exit(0);
                 }
                 numeroLinha++;
